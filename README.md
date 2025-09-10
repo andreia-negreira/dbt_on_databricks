@@ -39,7 +39,7 @@ This project demonstrates a simple end-to-end data pipeline using **AWS**, **Dat
 
 2. **Setup Airbyte**
 
-   Configure a connector from **S3 → Databricks Unity Catalog**.
+   Configure a connector **from AWS S3 to Databricks Unity Catalog**.
 
    Follow Airbyte’s documentation for authentication and setup.
 
@@ -60,7 +60,7 @@ This project demonstrates a simple end-to-end data pipeline using **AWS**, **Dat
 
 5. **Run dbt transformation - Gold, Snapshot and Generic Test**
 
-   Initialize the dbt project (first time only): `dbt init`
+   Initialize the dbt project (first time only): `cd dbt_db_project/` and then `dbt init` - follow the instructions to configure the connection with your `SQL Warehouse` and allow the `unit_catalog` option
 
    Run snapshots: `dbt snapshot --select users_scd2`
 
