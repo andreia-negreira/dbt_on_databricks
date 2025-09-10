@@ -1,0 +1,10 @@
+venv/
+.vscode
+dbt_db_project/profiles.yml
+logs
+infrastructure/terraform.tfvars
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp
+infrastructure/.terraform.lock.hcl
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/index.zip

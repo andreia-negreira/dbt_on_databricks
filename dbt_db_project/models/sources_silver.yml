@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: silver
+    database: workspace          
+    schema: default              
+    tables:
+      - name: orders_silver
+      - name: products_silver
+      - name: users_silver
+      - name: reviews_silver
