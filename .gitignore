@@ -9,3 +9,5 @@ infrastructure/terraform.tfstate
 infrastructure/terraform.tfstate.backup
 infrastructure/index.zip
 .DS_Store
+dbt_db_project/.user.yml
+dbt_db_project/.user.yml
